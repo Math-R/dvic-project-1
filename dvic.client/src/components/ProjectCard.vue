@@ -18,14 +18,9 @@
             <v-btn
                     color="orange"
                     text
+                    :to="'/projects/'+id"
             >
-                Share
-            </v-btn>
-            <v-btn
-                    color="orange"
-                    text
-            >
-                Explore
+                Plus d'infos
             </v-btn>
         </v-card-actions>
     </v-card>
@@ -34,6 +29,7 @@
 <script>
     export default {
         props: {
+            id:Number,
             name: String,
             description: String,
             img: String

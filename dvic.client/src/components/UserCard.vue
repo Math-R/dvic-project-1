@@ -17,14 +17,9 @@
             <v-btn
                     color="orange"
                     text
+                    :to="'/users/'+id"
             >
-                Share
-            </v-btn>
-            <v-btn
-                    color="orange"
-                    text
-            >
-                Explore
+                Voir
             </v-btn>
         </v-card-actions>
     </v-card>
@@ -33,6 +28,7 @@
 <script>
     export default {
         props: {
+            id: Number,
             name: String,
             surname: String,
         }

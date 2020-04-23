@@ -7,7 +7,7 @@
     >
       <v-list dense>
         <v-list-item>
-          <router-link to="/">Projets </router-link>
+          <router-link to="/projects">Projets </router-link>
         </v-list-item>
         <v-list-item>
           <router-link to="/users">Clients </router-link>
